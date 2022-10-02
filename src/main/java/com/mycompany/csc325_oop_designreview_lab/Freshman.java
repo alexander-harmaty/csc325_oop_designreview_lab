@@ -10,8 +10,8 @@ package com.mycompany.csc325_oop_designreview_lab;
  */
 public class Freshman extends Student {
 
-    public Freshman(String eName, int eAge, double eGPA) {
-        super(eName, eAge, eGPA);
+    public Freshman(String eName, int eAge, int eCredits) {
+        super(eName, eAge, eCredits);
     }
     
 }

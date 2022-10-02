@@ -5,8 +5,17 @@ package com.mycompany.csc325_oop_designreview_lab;
  *
  * @author Alexander Harmaty
  */
-public class Student extends Human{
+public class Student extends Human {
     double GPA;
+    int credits;
+
+    public int getCredits() {
+        return credits;
+    }
+
+    public void setCredits(int credits) {
+        this.credits = credits;
+    }
 
     public double getGPA() {
         return GPA;
@@ -16,9 +25,10 @@ public class Student extends Human{
         this.GPA = GPA;
     }
     
-    public Student(String eName, int eAge, double eGPA) {
+    public Student(String eName, int eAge, int eCredits) {
         super(eName, eAge);
-        this.GPA = eGPA;
+        this.GPA = 0;
+        this.credits = eCredits;
     }
 
     @Override
