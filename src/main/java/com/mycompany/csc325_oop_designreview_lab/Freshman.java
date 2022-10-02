@@ -13,5 +13,10 @@ public class Freshman extends Student {
     public Freshman(String eName, int eAge, int eCredits) {
         super(eName, eAge, eCredits);
     }
+
+    @Override
+    public String toString() {
+        return "Freshman { " + getName() + ", age " + getAge() + ", " + getCredits() + " credits }";
+    }
     
 }

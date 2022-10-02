@@ -14,4 +14,9 @@ public class Senior extends Student {
         super(eName, eAge, eCredits);
     }
     
+    @Override
+    public String toString() {
+        return "Senior { " + getName() + ", age " + getAge() + ", " + getCredits() + " credits }";
+    }
+    
 }

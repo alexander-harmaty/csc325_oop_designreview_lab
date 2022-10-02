@@ -11,12 +11,6 @@ package com.mycompany.csc325_oop_designreview_lab;
 public class MainClass {
 	
 	public static void main(String[] args) {
-		// ToDo 8: The senior class should have a minimum of 85 credits  
-		
-		// ToDo 9: Add a toString method for Freshman class
-		
-                // ToDo 10: Add a toString method for Senior class
-                
 		Student std1= new Freshman("James", 20, 12); // name, age, credits
                 
                 Student std2 = new Senior("John", 30, 90);
