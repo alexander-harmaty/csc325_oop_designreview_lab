@@ -6,34 +6,33 @@ package com.mycompany.csc325_oop_designreview_lab;
  */
 public abstract class Human {
     
-    private String name;
-    private String address;
-    private int age;
-
-    // constructor that takes only two paras
-    public Human(String name, int age) {
+    //Constructor (2 Param - Name, Age)
+        public Human(String name, short age) {
             this.name = name;
             this.age = age;
-    }
-
-    public String getName() {
+        }
+        
+    //Memeber Variables
+        private String name;
+        private short age;
+        private String address;
+        
+    //Getters & Setters
+        public String getName() {
             return name;
-    }
-
-    public void setName(String name) {
+        }
+        public void setName(String name) {
             this.name = name;
-    }
-
-    public abstract String getAddress() ;
-
-    public abstract void setAddress(String address);
-
-    public int getAge() {
+        }
+        public short getAge() {
             return age;
-    }
-
-    public void setAge(int age) {
+        }
+        public void setAge(short age) {
             this.age = age;
-    }
+        }
+        
+    //Abstract Getter & Setter
+        public abstract String getAddress() ;
+        public abstract void setAddress(String address);
     
 }

@@ -10,13 +10,15 @@ package com.mycompany.csc325_oop_designreview_lab;
  */
 public class Freshman extends Student {
 
-    public Freshman(String eName, int eAge, int eCredits) {
-        super(eName, eAge, eCredits);
-    }
+    //Constructor (3 Param - Name, Age, Credits)
+        public Freshman(String eName, short eAge, int eCredits) {
+            super(eName, eAge, eCredits);
+        }
 
-    @Override
-    public String toString() {
-        return "Freshman { " + getName() + ", age " + getAge() + ", " + getCredits() + " credits, " + getGPA() + " GPA }";
-    }
+    //Override toString()
+        @Override
+        public String toString() {
+            return "Freshman { " + getName() + ", age " + getAge() + ", " + getCredits() + " credits, " + getGPA() + " GPA }";
+        }
     
 }
