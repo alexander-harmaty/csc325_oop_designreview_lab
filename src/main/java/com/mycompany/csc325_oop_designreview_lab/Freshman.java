@@ -16,7 +16,7 @@ public class Freshman extends Student {
 
     @Override
     public String toString() {
-        return "Freshman { " + getName() + ", age " + getAge() + ", " + getCredits() + " credits }";
+        return "Freshman { " + getName() + ", age " + getAge() + ", " + getCredits() + " credits, " + getGPA() + " GPA }";
     }
     
 }

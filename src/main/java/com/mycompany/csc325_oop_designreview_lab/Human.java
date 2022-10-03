@@ -2,9 +2,10 @@ package com.mycompany.csc325_oop_designreview_lab;
 
 /**
  *
- * @author MoaathAlrajab
+ * @author Alexander Harmaty
  */
 public abstract class Human {
+    
     private String name;
     private String address;
     private int age;
@@ -27,7 +28,6 @@ public abstract class Human {
 
     public abstract void setAddress(String address);
 
-
     public int getAge() {
             return age;
     }
@@ -35,4 +35,5 @@ public abstract class Human {
     public void setAge(int age) {
             this.age = age;
     }
+    
 }
